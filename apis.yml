@@ -1,8 +1,24 @@
 aid: sxd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sxd.png
 name: SXD
-description: 'SXD is a company surfaced as a portfolio company of initialized-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'SXD is a New York-based design-technology company founded in 2022 that uses patented
+  artificial intelligence to generate zero-waste apparel patterns for the fashion industry. Its SXD AI
+  platform transforms a sketch or design concept into production-ready patterns that eliminate fabric
+  waste before the first cut, and the company reports up to 69% material savings across more than 35 brand
+  and manufacturing partners. SXD has been recognized with the Global Change Award and a top prize at the
+  SXSW Pitch competition, and is backed by Initialized Capital. SXD does not currently publish a public
+  developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sxd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise Saas
+- Fashion
+- Sustainability
+- Artificial Intelligence
+- Design
+- Apparel
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,24 @@ maintainers:
 common:
 - type: Website
   url: https://sxd.ai/
+- type: Blog
+  url: https://sxd-ai.com/diary
+- type: TermsOfService
+  url: https://sxd.ai/terms
+- type: PrivacyPolicy
+  url: https://sxd.ai/privacy
+- type: WellKnown
+  url: well-known/sxd-well-known.yml
+- type: SecurityTxt
+  url: well-known/sxd-security.txt
+- type: Security
+  url: https://sxd.ai/.well-known/security.txt
+- type: VulnerabilityDisclosure
+  url: security/sxd-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sxd-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
